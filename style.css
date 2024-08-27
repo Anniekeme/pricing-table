@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(to right, #dff1ff, #f3e7e9, #fff1c4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-weight: 600;
+}
+
+.pricing-card {
+  display: flex;
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+  position: relative;
+  border: 20px solid #fff;
+  background: rgba(243, 243, 243, 0.37);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11.7px);
+  -webkit-backdrop-filter: blur(11.7px);
+}
+
+.pricing-option {
+  flex: 1;
+  text-align: left;
+  padding: 20px;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.pricing-option:last-child {
+  border-right: none;
+}
+
+.pricing-option h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.subtxt {
+  font-weight: 400;
+}
+
+.pricing-option .price {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.pricing-option p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.pricing-option .price .dollar-sign {
+  font-size: 0.6em;
+  vertical-align: baseline;
+}
+
+.pricing-option button {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+  text-align: left;
+}
+
+.pricing-option button:hover {
+  opacity: 0.8;
+}
+
+.free button {
+  background-color: #edbbff;
+  color: rgb(0, 0, 0);
+}
+
+.standard button {
+  background-color: #aef1f5;
+  color: rgb(0, 0, 0);
+}
+
+.premium button {
+  background-color: #ffddb6;
+  color: rgb(0, 0, 0);
+}
